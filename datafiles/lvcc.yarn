@@ -1,20 +1,10 @@
 #__PrivCrochet_version:1
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: -68,-71
+__PrivCrochet_position: -71,-75
 __PrivCrochet_tags: 
 title: Start
 ---
 <<rm(3)>>
-
-December 2019. 
-
-Florián sedí na gauči vo svojej obývačke a obzerá si ju, premýšľajúc o tom ako by sa dala vylepšiť. 
-
-Jeho byt je malý ale po rokoch bývania s rodičmi je šťastný, že má konečne svoj vlastný priestor. 
-
-Navyše popri práci a bohatom spoločenskom živote v ňom aj tak netrávi veľa času. 
-
-Dnes je piatok večer a Florián sa teší, že po dlhšej dobe môže byť celý večer sám doma. 
 
 Hlásateľ v televízii hovorí čosi o nejakom novom víruse z nejakého čínskeho mesta,\n o ktorom nikdy nepočul. Wu-Chan? 
 
@@ -55,7 +45,7 @@ Florian zloží telefón a povie si popod nos
 <<jump Vyber tricka>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 679,-68
+__PrivCrochet_position: 678,-69
 __PrivCrochet_tags: 
 title: Vyber tricka
 ---
@@ -90,6 +80,7 @@ __PrivCrochet_position: 1606,-58
 __PrivCrochet_tags: 
 title: Bar
 ---
+<<rm(4)>>
 Florián prichádza do baru, kde už sedí Oskar a máva na neho. 
 Bar je plný ľudí, prevažuje hluk rozhovorov a tichá hudba z reproduktorov. 
 Florián si sadá k Oskarovi a objednáva si pivo.
@@ -153,10 +144,11 @@ title: Option C
 <<jump Interlude>>
 ===
 __PrivCrochet_colorID: 8
-__PrivCrochet_position: 2565,-61
+__PrivCrochet_position: 2564,-62
 __PrivCrochet_tags: 
 title: Interlude
 ---
+<<rm(5)>>
 Nasledujúcich niekoľko mesiacov sa Florián a Filoména začínajú pravidelne stretávať. 
 Spočiatku sú to len náhodné stretnutia na káve alebo poháriku, no čoskoro si obaja uvedomujú,\n 
 že medzi nimi niečo začína iskriť. Florián cíti, že každé stretnutie s Filoménou mu dodáva energiu\n 
@@ -176,6 +168,7 @@ __PrivCrochet_position: 2956,-51
 __PrivCrochet_tags: 
 title: Júl 2020
 ---
+<<rm(6)>>
 Florián sedí vo svojom byte, zatvorený medzi štyrmi stenami. Vonku je leto, ale on už celé týždne nevychádza, karanténa sa stala každodennou realitou. Na stole má položený notebook, na ktorom bežia online mítingy, a televízor v rohu miestnosti neustále hlási nové správy o pandémii. Florián sa cíti trochu osamelý, a jediné, čo ho drží nad vodou, sú občasné videohovory s Filoménou.
 
 Vtom sa ozve hlasné klopanie na dvere. Florián prekvapene zdvihne hlavu a zamračí sa. "Kto to môže byť?" zamrmle si a zamieri k dverám. Cestou zvažuje -  Nasadiť si rúško predtým, než otvorí?
@@ -194,6 +187,7 @@ __PrivCrochet_position: 3319,-48
 __PrivCrochet_tags: 
 title: Sused
 ---
+<<rm(7)>>
 Florian otvorí dvere a na prahu stojí jeho sused, pán Hríb. 
 
 Sused je starší muž s mierne divokým pohľadom a zrejmou záľubou v alternatívnych zdrojoch informácií. 
@@ -234,6 +228,7 @@ __PrivCrochet_position: 3654,-48
 __PrivCrochet_tags: 
 title: Filomena call
 ---
+<<rm(8)>>
 Floriánov telefón zrazu zazvoní a na displeji sa objaví meno Filoména. \n
 Zdvihne ho s neistým úsmevom na tvári.
 
@@ -280,18 +275,21 @@ Florian rozmysla o com by sa mohli rozpravat
                 Florian: Dufam ze hej
             <<endif>>
 
-<<jump 2021>>
+<<jump Choices>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 4004,-45
+__PrivCrochet_position: 4299,-47
 __PrivCrochet_tags: 
 title: 2021
 ---
+<<rm(9)>>
 Prešiel rok. Lockdown a pandémia sa podpísali na Floriánovom psychyckom zdraví. 
 
 Hoci sa s Filoménou niekoľko mesiacov nevideli stále na ňu neprestal myslieť a často premýsľal ako sa má.
 
 Pri jednej z jeho pravidelných zdravotných prechádzok lesom koncom leta náhodou narazil na Filoménu
+
+<<rm(10)>>
 
 Florián: Filoména?
 Filoména: Florián! Ako sa máš?
@@ -333,10 +331,11 @@ Da sa Florian zaockovat?:
 <<jump 2023>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 4321,-36
+__PrivCrochet_position: 4643,-47
 __PrivCrochet_tags: 
 title: 2023
 ---
+<<rm(11)>>
 Filoména sedí doma a bezmyšlienkovito scrolluje internet.
 
 Floriána nevidela odkedy sa vtedy pred pár rokmi stretli v lese ale myslela naňho často.
@@ -351,4 +350,92 @@ Filoména: Čo sa stalo??
     -> Zrazila ho električka
     -> Zožral ho medveď
     -> Dostal trest smrti
+
+<<jump 2024>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 4958,-39
+__PrivCrochet_tags: 
+title: 2024
+---
+<<rm(12)>>
+Filoména sedí v kaviarni kde sa kedysi zoznámila s Floriánom a premýšľa nad všetkým čo sa za posledné roky stalo.
+
+Dnu vchádza Florián a posadí sa oproti nej, jeho pohľad neistý, no plný dôvery.
+
+Filoména: "Florián, musím ti niečo povedať."
+
+Filoména si povzdychla a na okamih odvrátila pohľad smerom k oknu.
+
+Filoména: "Bonifác... Minulý rok zomrel. Bola to taká rýchlosť, ani som sa s ním nestihla rozlúčiť. Bol tak silný a staral sa o iných, a zrazu ho už nebolo."
+
+Floriánove oči sa zjemnili, plné pochopenia a bolesti. Pozeral na ňu, akoby hľadal tie správne slová.
+    -> Mrzí ma to
+        Florián: "Filoména, to ma veľmi mrzí. Viem, že pre teba znamenal veľa."
+        Filoména: "Áno. A aj keď ma to nesmierne bolí, viem, že by som mala ísť ďalej. Ale cítim sa tak stratená Florián."
+    -> Nepovie nič
+        Filoména: "A aj keď ma to nesmierne bolí, viem, že by som mala ísť ďalej. Ale cítim sa tak stratená Florián."
+    -> Bol zaočkovaný? <<if $dezole > 4>>
+        Filoména: "Florián prestaň prosím ťa! To s tým nemá nič spoločné"
+
+
+Florián chytil jej ruku, jemne, no s pevným odhodlaním. Cítila jeho teplo a to čosi viac, niečo, čo sa medzi nimi skrývalo roky.
+
+Florián: "Filoména, roky som sa snažil nájsť odvahu. Roky som sa pozeral, ako žiješ svoj život, a prial som si, aby som mohol byť jeho súčasťou. Miloval som ťa, keď sme sa prvýkrát stretli, a milujem ťa aj dnes. Nikdy som neprestal. Chcem tu byť pre teba, aj teraz, aj navždy."
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 3922,-376
+__PrivCrochet_tags: 
+title: Choices
+---
+Keď dotelefonuje s Filoménou Florián sa obzrie po byte a premýšľa čo urobiť
+    -> Zatlieskať zdravotníkom
+        <<jump 2021>>
+    -> Ísť na prechádzku
+        <<jump Prechádzka>>
+    -> Ísť na tajný koncert Oskara Rózsu <<if $dezole > 1>>
+        <<set $covid to 1>>
+        <<jump Koncert>>
+    -> Pustiť si YouTube <<if $dezole > 0>>
+        <<set $dezole to $dezole + 1>>
+        <<if $dezole > 3>>
+            <<if $rusko == 0>>
+                <<jump Plucne>>
+            <<endif>>
+        <<else>>
+            <<jump 2021>>
+        <<endif>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 4554,-363
+__PrivCrochet_tags: 
+title: Plucne
+---
+Na koncerte Florián dostal covid a skončil na pľúcnom kde naposledy videl Filoménu ako sa mu snaží zachrániť život
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 4251,-621
+__PrivCrochet_tags: 
+title: Koncert
+---
+Na koncerte Oskara Rózsu Florián dostal covid
+<<jump Plucne>>
+===
+__PrivCrochet_colorID: 8
+__PrivCrochet_position: 3930,259
+__PrivCrochet_tags: 
+title: Prechádzka
+---
+<<if $dezole < 2>>
+    <<jump 2021>>
+<<else>>
+    <<jump Sniper>>
+<<endif>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 4374,355
+__PrivCrochet_tags: 
+title: Sniper
+---
+Empty Text
 ===

@@ -26,7 +26,12 @@ function draw_rectangle_center(_x, _y, _width, _height, _outline, _colour, _alph
 
 function rm_change(_arr) {	
 	
-	room_goto(_arr[0])
+	//room_goto(_arr[0])
+	 if ( !instance_exists(obj_fade_controller)) {
+		
+		scr_fader(_arr[0], 0.03); 
+	 
+	 }      
 }
 
 function chatterbox_update() {
