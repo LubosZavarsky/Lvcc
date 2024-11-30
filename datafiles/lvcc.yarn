@@ -1,0 +1,204 @@
+#__PrivCrochet_version:1
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: -68,-71
+__PrivCrochet_tags: 
+title: Start
+---
+<<rm(0)>>
+
+December 2019. 
+
+Florián sedí na gauči vo svojej obývačke a obzerá si ju, premýšľajúc o tom ako by sa dala vylepšiť. Jeho byt je malý ale po rokoch bývania s rodičmi je šťastný, že má konečne svoj vlastný priestor. Navyše popri práci a bohatom spoločenskom živote v ňom aj tak netrávi veľa času. Dnes je piatok večer a Florián sa teší, že po dlhšej dobe môže byť celý večer sám doma. 
+
+Hlásateľ v televízii hovorí čosi o nejakom novom víruse z nejakého čínskeho mesta, o ktorom nikdy pred tým nepočul. Wu-Chan? [i]"Záhadný vírus zasiahol čínske mesto Wuhan. V súčasnosti je infikovaných niekoľko stoviek ľudí, čínske autority už podnikajú kroky na kontrolu situácie."[/i]
+
+Florian: 
+    -> Fuha, to znie vážne
+        Florián zbystrí pozornosť a povie si pod nos
+		Florian: To znie vážne! Dúfam že to udržia pod kontrolou
+            <<set $dezole to 0>>
+    -> Blbost
+        Florian prevrati ocami a povie si pod nos
+        Florian: Jezis zas strasia s blbostami, to bude dalsia vtacia chripka
+            <<set $dezole to 1>>
+
+
+V tom Florianovi zazvoni telefon. Vola mu jeho najlepsi kamarat Oskar
+
+Oskar: Pod voooooon, ideme do ... bude tam kopec bab 
+
+Florian:
+    -> Jasne
+        Florian: Jasne, hodim na seba nieco a letim
+            <<jump Vyber tricka>>
+    -> Dnes nie
+		Florian: Vies co nechce sa mi uz som sa namotal ze ostanem doma dnes
+            <<jump Nechce sa mi>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 354,185
+__PrivCrochet_tags: 
+title: Nechce sa mi
+---
+Oskar: Jezis nebud kokot
+Florian: Ok
+
+Florian si pre seba povie "Jak sa mi nechce najradsej by som ostal doma aspon rok"
+
+    <<jump Vyber tricka>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 681,-64
+__PrivCrochet_tags: 
+title: Vyber tricka
+---
+Florian pride ku skrini a rozmysla co si obliect
+    -> Cervene tricko
+        <<jump Cervene>>
+    -> Modre tricko
+        <<jump Modre>>
+===
+__PrivCrochet_colorID: 5
+__PrivCrochet_position: 1157,-92
+__PrivCrochet_tags: 
+title: Cervene
+---
+Vybera si cervene tricko
+    <<set $filomena to 1>>
+    <<jump Bar>>
+===
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 1168,238
+__PrivCrochet_tags: 
+title: Modre
+---
+Vybera si modre tricko
+    <<set $filomena to 0>>
+    <<jump Bar>>
+===
+__PrivCrochet_colorID: 3
+__PrivCrochet_position: 1588,43
+__PrivCrochet_tags: 
+title: Bar
+---
+Florián prichádza do baru, kde už sedí Oskar a máva na neho. Bar je plný ľudí, prevažuje hluk rozhovorov a tichá hudba z reproduktorov. Florián si sadá k Oskarovi a objednáva si pivo.
+
+Po chvíli si Florián všimne ženu, ktorá sedí sama pri bare. Má dlhé tmavé vlasy a pozerá do telefónu. Oskar si ju všimne tiež a podpichne Floriána.
+
+"Hentá je pekná, choď za ňou!"
+
+Florián sa trochu zdráha, ale nakoniec sa rozhodne vstať a ísť za ňou.
+
+Florian:
+    -> Ahoj, mozem si prisadnut
+        <<jump Option A>>
+    -> Co pijes? Vyzera to zaujimavo
+        <<jump Option B>>
+    -> Ahoj, vyzeras povedome? Nevideli sme sa uz niekde?
+        <<jump Option C>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2003,-248
+__PrivCrochet_tags: 
+title: Option A
+---
+Filoména si ho prezrie. 
+
+<<if $filomena == 1>>
+    Filomena: Usmeje sa. "Nech sa paci" 
+<<else>>
+Filomena: Mykne plecom.
+<<endif>>
+
+
+<<jump Interlude>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2019,96
+__PrivCrochet_tags: 
+title: Option B
+---
+<<if $filomena == 1>>
+    Filomena si ho prezrie, usmeje sa a povie "gin tonic"
+<<else>>
+    Filomena si ho prezrie a povie "gin tonic"
+<<endif>>
+
+<<jump Interlude>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2015,435
+__PrivCrochet_tags: 
+title: Option C
+---
+<<if $filomena == 1>>
+    Filomena si ho prezrie, usmeje sa a povie
+    Filomena: Ak si nebol v poslednom case v nemocnici tak asi nie. 
+    Florian: V nemocnici??
+    Filomena: Ja som zdravotna sestricka a inde ako v praci ma najdes len zriedka
+<<else>>
+    Filomena: Nemyslim si
+<<endif>>
+
+<<jump Interlude>>
+===
+__PrivCrochet_colorID: 8
+__PrivCrochet_position: 2519,97
+__PrivCrochet_tags: 
+title: Interlude
+---
+Nasledujúcich niekoľko mesiacov sa Florián a Filoména začínajú pravidelne stretávať. Spočiatku sú to len náhodné stretnutia na káve alebo poháriku, no čoskoro si obaja uvedomujú, že medzi nimi niečo začína iskriť. Florián cíti, že každé stretnutie s Filoménou mu dodáva energiu a svetlo, ktoré mu chýbalo v každodennej rutine. 
+
+Filoména, napriek náročnej práci v nemocnici, nachádza vo Floriánovi útočisko a príjemný únik z každodenných starostí. Ich vzťah rasti ale situácia sa čoskoro mení, keď pandémia zasiahne aj Slovensko. 
+
+Filoména ako zdravotná sestrička musí čeliť čoraz náročnejším podmienkam a stresu, a ich vzťah je vystavený skúške. Napriek všetkému sa snažia udržať kontakt, ale každodenný život sa stáva stále komplikovanejším, keď obmedzenia a lockdowny začnú zasahovať do ich plánov a voľného času spolu.
+
+<<jump Júl 2020>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2919,95
+__PrivCrochet_tags: 
+title: Júl 2020
+---
+Florián sedí vo svojom byte, zatvorený medzi štyrmi stenami. Vonku je leto, ale on už celé týždne nevychádza, karanténa sa stala každodennou realitou. Na stole má položený notebook, na ktorom bežia online mítingy, a televízor v rohu miestnosti neustále hlási nové správy o pandémii. Florián sa cíti trochu osamelý, a jediné, čo ho drží nad vodou, sú občasné videohovory s Filoménou.
+
+Vtom sa ozve hlasné klopanie na dvere. Florián prekvapene zdvihne hlavu a zamračí sa. "Kto to môže byť?" zamrmle si a zamieri k dverám. Cestou zvažuje -  Nasadiť si rúško predtým, než otvorí?
+
+    -> Ano
+        <<jump Sused>>
+    -> Nie
+        <<set $dezole to $dezole + 1>>
+        <<jump Sused>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 3276,96
+__PrivCrochet_tags: 
+title: Sused
+---
+Florian otvorí dvere a na prahu stojí jeho sused, pán Hríb. Sused je starší muž s mierne divokým pohľadom a zrejmou záľubou v alternatívnych zdrojoch informácií. Pán Hríb sa široko usmieva, pričom sa Floriánovi natíska do priestoru.
+
+"Florián! Ahoj, sused! Počuj, nemáš náhodou toaletný papier navyše? Všade to je vypredané kvôli tej fejkovanej pandémii!" začne pán Hríb hovoriť a pokračuje bez toho, aby čakal na odpoveď.
+
+"Teraz som čítal na Hlavných správach, že to vôbec neni jak hovoria! To je celé vymyslené aby nás mohli ovládať! Šak ten vírus vyrobili Američania v labáku! Ja mám v náhubku chodiť po vonku?! To radšej umrem" hovorí a gestikuluje energicky.
+
+<<if $dezole > 2>>
+    Florian: Hm, mozno na tom nieco bude. Pockajte mam tu nejaky extra toaletak donesiem vam
+<<else>>
+    Florian: Prepacte sused, nemam ani ja
+<<endif>>
+
+Po tom čo sused odíde Florián premýšľa či si prečíta ten článok čo spomínal
+
+    -> Prečíta článok
+        <<set $dezole to $dezole + 1>>
+    -> Neprečíta článok
+
+<<jump Filomena call>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 3572,101
+__PrivCrochet_tags: 
+title: Filomena call
+---
+Empty Text
+===
