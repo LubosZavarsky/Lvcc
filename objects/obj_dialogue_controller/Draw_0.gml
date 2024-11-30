@@ -22,7 +22,9 @@ if IsChatterbox(chatterbox) and text != undefined
 	
 	//If there are options, draw them to the center of the screen
 	
-	if ChatterboxGetOptionCount(chatterbox)
+	
+	// !!! ZACAT PISAT TEXT AZ KED DOBEHNE FADE !!! ???
+	if ChatterboxGetOptionCount(chatterbox) && chars_shown >= string_length(text)
 	{
 		draw_set_halign(fa_center);
 		
