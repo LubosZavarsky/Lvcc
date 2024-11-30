@@ -159,6 +159,7 @@
     {"id":{"name":"ChatterboxWait","path":"scripts/ChatterboxWait/ChatterboxWait.yy",},},
     {"id":{"name":"helpers","path":"scripts/helpers/helpers.yy",},},
     {"id":{"name":"IsChatterbox","path":"scripts/IsChatterbox/IsChatterbox.yy",},},
+    {"id":{"name":"spr_bg_1","path":"sprites/spr_bg_1/spr_bg_1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

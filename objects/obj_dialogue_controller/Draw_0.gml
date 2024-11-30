@@ -1,6 +1,7 @@
 /// @desc Draw sprites, text and options
 
 draw_set_font(fnt_game);
+draw_set_color(c_black);
 draw_set_valign(fa_middle);
 
 var _margin_text = 128; // Horizontal text margin
@@ -8,17 +9,20 @@ var _margin_char = 200; // Horizontal character margin
 
 if IsChatterbox(chatterbox) and text != undefined
 {
-	var _me = (ChatterboxGetContentSpeaker(chatterbox, 0) == "Me");
+	//var _me = (ChatterboxGetContentSpeaker(chatterbox, 0) == "Me");
 	
 	//draw_sprite_ext(characters, 0, _margin_char,              room_height, size[_me],  size[_me],  0, colour[_me],  1);
 	//draw_sprite_ext(characters, 1, room_width - _margin_char, room_height, size[!_me], size[!_me], 0, colour[!_me], 1);
 	
-	var _yy = room_height - (_margin_text / 2);
+	//var _yy = room_height - (_margin_text / 2);
 	
-	draw_rectangle_center(room_width / 2, _yy, room_width, _margin_text, false, c_black, 0.5);
+	//draw_rectangle_center(room_width / 2, _yy, room_width, _margin_text, false, c_black, 0.5);
 	
-	draw_set_halign(_me ? fa_left : fa_right);
-	var _xx = _me ? _margin_text : room_width - _margin_text;
+	//draw_set_halign(_me ? fa_left : fa_right);
+	draw_set_halign(fa_left);
+	//var _xx = _me ? _margin_text : room_width - _margin_text;
+	var _xx = 60;
+	var _yy = room_height - 90;
 	draw_text(_xx, _yy, text);
 	
 	//If there are options, draw them to the center of the screen
