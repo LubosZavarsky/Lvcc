@@ -8,32 +8,37 @@ title: Start
 
 December 2019. 
 
-Florián sedí na gauči vo svojej obývačke a obzerá si ju, premýšľajúc o tom ako by sa dala vylepšiť. Jeho byt je malý ale po rokoch bývania s rodičmi je šťastný, že má konečne svoj vlastný priestor. Navyše popri práci a bohatom spoločenskom živote v ňom aj tak netrávi veľa času. Dnes je piatok večer a Florián sa teší, že po dlhšej dobe môže byť celý večer sám doma. 
+Florián sedí na gauči vo svojej obývačke a obzerá si ju, premýšľajúc o tom ako by sa dala vylepšiť. 
 
-Hlásateľ v televízii hovorí čosi o nejakom novom víruse z nejakého čínskeho mesta, o ktorom nikdy pred tým nepočul. Wu-Chan? [i]"Záhadný vírus zasiahol čínske mesto Wuhan. V súčasnosti je infikovaných niekoľko stoviek ľudí, čínske autority už podnikajú kroky na kontrolu situácie."[/i]
+Jeho byt je malý ale po rokoch bývania s rodičmi je šťastný, že má konečne svoj vlastný priestor. 
 
-Florian: 
-    -> Fuha, to znie vážne
-        Florián zbystrí pozornosť a povie si pod nos
-		Florian: To znie vážne! Dúfam že to udržia pod kontrolou
-            <<set $dezole to 0>>
-    -> Blbost
-        Florian prevrati ocami a povie si pod nos
-        Florian: Jezis zas strasia s blbostami, to bude dalsia vtacia chripka
-            <<set $dezole to 1>>
+Navyše popri práci a bohatom spoločenskom živote v ňom aj tak netrávi veľa času. 
+
+Dnes je piatok večer a Florián sa teší, že po dlhšej dobe môže byť celý večer sám doma. 
+
+Hlásateľ v televízii hovorí čosi o nejakom novom víruse z nejakého čínskeho mesta,\n o ktorom nikdy nepočul. Wu-Chan? 
+
+"Záhadný vírus zasiahol čínske mesto Wuhan. V súčasnosti je infikovaných niekoľko stoviek ľudí,\n
+čínske autority už podnikajú kroky na kontrolu situácie."
+-> Fuha, to znie vážne
+    Florián zbystrí pozornosť a povie si pod nos
+	Florian: To znie vážne! Dúfam že to udržia pod kontrolou
+        <<set $dezole to 0>>
+-> Blbost
+    Florian prevrati ocami a povie si pod nos
+    Florian: Jezis zas strasia s blbostami, to bude dalsia vtacia chripka
+        <<set $dezole to 1>>
 
 
 V tom Florianovi zazvoni telefon. Vola mu jeho najlepsi kamarat Oskar
 
-Oskar: Pod voooooon, ideme do ... bude tam kopec bab 
-
-Florian:
-    -> Jasne
-        Florian: Jasne, hodim na seba nieco a letim
-            <<jump Vyber tricka>>
-    -> Dnes nie
-		Florian: Vies co nechce sa mi uz som sa namotal ze ostanem doma dnes
-            <<jump Nechce sa mi>>
+Oskar: Pod na kavu Florian!
+-> Jasne
+    Florian: Jasne, hodim na seba nieco a letim
+        <<jump Vyber tricka>>
+-> Dnes nie
+	Florian: Vies co nechce sa mi uz som sa namotal ze ostanem doma dnes
+        <<jump Nechce sa mi>>
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 354,185
@@ -43,23 +48,27 @@ title: Nechce sa mi
 Oskar: Jezis nebud kokot
 Florian: Ok
 
-Florian si pre seba povie "Jak sa mi nechce najradsej by som ostal doma aspon rok"
+Florian zloží telefón a povie si popod nos 
 
-    <<jump Vyber tricka>>
+"Jak sa mi nechce najradsej by som ostal doma aspon rok"
+
+<<jump Vyber tricka>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 681,-64
+__PrivCrochet_position: 679,-68
 __PrivCrochet_tags: 
 title: Vyber tricka
 ---
 Florian pride ku skrini a rozmysla co si obliect
+
+Vyber si tricko
     -> Cervene tricko
         <<jump Cervene>>
     -> Modre tricko
         <<jump Modre>>
 ===
 __PrivCrochet_colorID: 5
-__PrivCrochet_position: 1157,-92
+__PrivCrochet_position: 1150,-297
 __PrivCrochet_tags: 
 title: Cervene
 ---
@@ -77,19 +86,20 @@ Vybera si modre tricko
     <<jump Bar>>
 ===
 __PrivCrochet_colorID: 3
-__PrivCrochet_position: 1588,43
+__PrivCrochet_position: 1606,-58
 __PrivCrochet_tags: 
 title: Bar
 ---
-Florián prichádza do baru, kde už sedí Oskar a máva na neho. Bar je plný ľudí, prevažuje hluk rozhovorov a tichá hudba z reproduktorov. Florián si sadá k Oskarovi a objednáva si pivo.
+Florián prichádza do baru, kde už sedí Oskar a máva na neho. 
+Bar je plný ľudí, prevažuje hluk rozhovorov a tichá hudba z reproduktorov. 
+Florián si sadá k Oskarovi a objednáva si pivo.
 
-Po chvíli si Florián všimne ženu, ktorá sedí sama pri bare. Má dlhé tmavé vlasy a pozerá do telefónu. Oskar si ju všimne tiež a podpichne Floriána.
+Po chvíli si Florián všimne ženu, ktorá sedí sama pri bare. Má dlhé tmavé vlasy a pozerá do telefónu.\n
+Oskar si ju všimne tiež a podpichne Floriána.
 
 "Hentá je pekná, choď za ňou!"
 
 Florián sa trochu zdráha, ale nakoniec sa rozhodne vstať a ísť za ňou.
-
-Florian:
     -> Ahoj, mozem si prisadnut
         <<jump Option A>>
     -> Co pijes? Vyzera to zaujimavo
@@ -98,7 +108,7 @@ Florian:
         <<jump Option C>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 2003,-248
+__PrivCrochet_position: 2001,-355
 __PrivCrochet_tags: 
 title: Option A
 ---
@@ -114,7 +124,7 @@ Filomena: Mykne plecom.
 <<jump Interlude>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 2019,96
+__PrivCrochet_position: 2071,-61
 __PrivCrochet_tags: 
 title: Option B
 ---
@@ -127,7 +137,7 @@ title: Option B
 <<jump Interlude>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 2015,435
+__PrivCrochet_position: 2022,282
 __PrivCrochet_tags: 
 title: Option C
 ---
@@ -143,20 +153,26 @@ title: Option C
 <<jump Interlude>>
 ===
 __PrivCrochet_colorID: 8
-__PrivCrochet_position: 2519,97
+__PrivCrochet_position: 2565,-61
 __PrivCrochet_tags: 
 title: Interlude
 ---
-Nasledujúcich niekoľko mesiacov sa Florián a Filoména začínajú pravidelne stretávať. Spočiatku sú to len náhodné stretnutia na káve alebo poháriku, no čoskoro si obaja uvedomujú, že medzi nimi niečo začína iskriť. Florián cíti, že každé stretnutie s Filoménou mu dodáva energiu a svetlo, ktoré mu chýbalo v každodennej rutine. 
+Nasledujúcich niekoľko mesiacov sa Florián a Filoména začínajú pravidelne stretávať. 
+Spočiatku sú to len náhodné stretnutia na káve alebo poháriku, no čoskoro si obaja uvedomujú,\n 
+že medzi nimi niečo začína iskriť. Florián cíti, že každé stretnutie s Filoménou mu dodáva energiu\n 
+a svetlo, ktoré mu chýbalo v každodennej rutine. 
 
-Filoména, napriek náročnej práci v nemocnici, nachádza vo Floriánovi útočisko a príjemný únik z každodenných starostí. Ich vzťah rasti ale situácia sa čoskoro mení, keď pandémia zasiahne aj Slovensko. 
+Filoména, napriek náročnej práci v nemocnici, nachádza vo Floriánovi útočisko a príjemný únik \n 
+z každodenných starostí. Ich vzťah rasti ale situácia sa čoskoro mení, keď pandémia zasiahne aj Slovensko. 
 
-Filoména ako zdravotná sestrička musí čeliť čoraz náročnejším podmienkam a stresu, a ich vzťah je vystavený skúške. Napriek všetkému sa snažia udržať kontakt, ale každodenný život sa stáva stále komplikovanejším, keď obmedzenia a lockdowny začnú zasahovať do ich plánov a voľného času spolu.
+Filoména ako zdravotná sestrička musí čeliť čoraz náročnejším podmienkam a stresu, a ich vzťah je vystavený skúške. 
+Napriek všetkému sa snažia udržať kontakt, ale každodenný život sa stáva stále komplikovanejším, \n
+keď obmedzenia a lockdowny začnú zasahovať do ich plánov a voľného času spolu.
 
 <<jump Júl 2020>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 2919,95
+__PrivCrochet_position: 2956,-51
 __PrivCrochet_tags: 
 title: Júl 2020
 ---
@@ -164,24 +180,41 @@ Florián sedí vo svojom byte, zatvorený medzi štyrmi stenami. Vonku je leto, 
 
 Vtom sa ozve hlasné klopanie na dvere. Florián prekvapene zdvihne hlavu a zamračí sa. "Kto to môže byť?" zamrmle si a zamieri k dverám. Cestou zvažuje -  Nasadiť si rúško predtým, než otvorí?
 
+Nasadit si rusko?
     -> Ano
+        <<set $rusko to 1>>
         <<jump Sused>>
     -> Nie
         <<set $dezole to $dezole + 1>>
+        <<set $rusko to 0>>
         <<jump Sused>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 3276,96
+__PrivCrochet_position: 3319,-48
 __PrivCrochet_tags: 
 title: Sused
 ---
-Florian otvorí dvere a na prahu stojí jeho sused, pán Hríb. Sused je starší muž s mierne divokým pohľadom a zrejmou záľubou v alternatívnych zdrojoch informácií. Pán Hríb sa široko usmieva, pričom sa Floriánovi natíska do priestoru.
+Florian otvorí dvere a na prahu stojí jeho sused, pán Hríb. 
 
-"Florián! Ahoj, sused! Počuj, nemáš náhodou toaletný papier navyše? Všade to je vypredané kvôli tej fejkovanej pandémii!" začne pán Hríb hovoriť a pokračuje bez toho, aby čakal na odpoveď.
+Sused je starší muž s mierne divokým pohľadom a zrejmou záľubou v alternatívnych zdrojoch informácií. 
 
-"Teraz som čítal na Hlavných správach, že to vôbec neni jak hovoria! To je celé vymyslené aby nás mohli ovládať! Šak ten vírus vyrobili Američania v labáku! Ja mám v náhubku chodiť po vonku?! To radšej umrem" hovorí a gestikuluje energicky.
+Pán Hríb sa široko usmieva, pričom sa Floriánovi natíska do priestoru.
 
-<<if $dezole > 2>>
+<<if $rusko == 0>>
+    Sused: Florián! Susedko!
+<<else>>
+    Sused: Florián! Na čo máš tú handru na ksichte prosím ťa!?
+<<endif>>
+
+Sused: Počuj, nemáš náhodou toaletný papier navyše? \n 
+Všade to je vypredané kvôli tej fejkovanej pandémii!" začne pán Hríb hovoriť a pokračuje bez toho, \n
+aby čakal na odpoveď.
+
+"Teraz som čítal na Hlavných správach, že to vôbec neni jak hovoria! To je celé vymyslené aby nás mohli ovládať! 
+Šak ten vírus vyrobili Američania v labáku! Ja mám v náhubku chodiť po vonku?! To radšej umrem" \n
+hovorí a gestikuluje energicky.
+
+<<if $dezole == 2>>
     Florian: Hm, mozno na tom nieco bude. Pockajte mam tu nejaky extra toaletak donesiem vam
 <<else>>
     Florian: Prepacte sused, nemam ani ja
@@ -189,6 +222,7 @@ Florian otvorí dvere a na prahu stojí jeho sused, pán Hríb. Sused je starš�
 
 Po tom čo sused odíde Florián premýšľa či si prečíta ten článok čo spomínal
 
+Florian:
     -> Prečíta článok
         <<set $dezole to $dezole + 1>>
     -> Neprečíta článok
@@ -196,9 +230,125 @@ Po tom čo sused odíde Florián premýšľa či si prečíta ten článok čo s
 <<jump Filomena call>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 3572,101
+__PrivCrochet_position: 3654,-48
 __PrivCrochet_tags: 
 title: Filomena call
 ---
-Empty Text
+Floriánov telefón zrazu zazvoní a na displeji sa objaví meno Filoména. \n
+Zdvihne ho s neistým úsmevom na tvári.
+
+Florian: ahoj, ako sa mas?
+Filomena: ahoj, nic moc ak mam byt uprimna, v praci je to uplny chaos teraz, \n
+zislo by sa mi pocut priatelsky hlas
+
+Florian rozmysla o com by sa mohli rozpravat
+    -> Politika
+        Florian:
+        -> Matovic
+            Florian: Kokos ten Matovic to je riadny cirkus co? 
+            Filomena: Ani mi nehovor..
+            Florian: Aspon ze toho Fica sme sa raz a navzdy zbavili
+        -> Americke volby
+            Forian: Co hovoris na tie Americke volby? Ten Biden to vyhral nakoniec
+            Filomena: No chvalabohu...
+            <<if $dezole > 2>>
+                Florian: Co ja viem s tym Trumpom by aspon bola sranda
+            <<else>>
+                Florian: Tomu ver, dalsie styri roky Trumpa si neviem predstavit
+            <<endif>>
+    -> Popkultura
+        Florian:
+        -> Tiger King
+            Florian: Viela si uz Tiger Kinga?
+            Filomena: Jasne, este mam posledny diel, nespojluj!
+    -> Pandemia
+        Florian:
+        -> Lockdown
+            Florian: Tento lockdown to je strasne, uz nech to skonci
+            <<if $dezole > 2>>
+                Florian: Ani neviem ci to ma nejaky vyznam
+            <<endif>>
+        -> Ockovanie
+            Florian: Myslis ze bude vakcina niekedy?
+            Filomena: Jasne, verim ze coskoro
+            <<if $dezole > 2>>
+                -> Dufam ze hej
+                    Florian: Dufam ze hej
+                -> Tomu moc neverim
+                    Florian: Tak narychlo vyrobenej vakciny by som sa asi bal
+            <<else>>
+                Florian: Dufam ze hej
+            <<endif>>
+
+<<jump 2021>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 4004,-45
+__PrivCrochet_tags: 
+title: 2021
+---
+Prešiel rok. Lockdown a pandémia sa podpísali na Floriánovom psychyckom zdraví. 
+
+Hoci sa s Filoménou niekoľko mesiacov nevideli stále na ňu neprestal myslieť a často premýsľal ako sa má.
+
+Pri jednej z jeho pravidelných zdravotných prechádzok lesom koncom leta náhodou narazil na Filoménu
+
+Florián: Filoména?
+Filoména: Florián! Ako sa máš?
+    -> Ujde to
+        Florián: Ale v pohode, dá sa. A ty?
+        Filoména: Dobre. Som rada že ťa vidím
+        Florián: Aj ja, neskočíme na kávu?
+    -> Nič moc
+        Florián: Vieš čo ak mám pravdu povedať mal som sa aj lepšie
+        Filoména: Rozumiem
+        Florián: Ale teraz keď ťa vidím mám hneď lepšiu náladu? Neskočíme niekam na kávu?
+Filoména: (sklopí zrak) Prepáč, nemôžem. Niekoho som stretla
+    -> Predstiera, že je v pohode
+        Florián: "Aha, no to je super! Kto to je?"
+        Filoména: "Kolega z pľúcneho, spoznali sme sa v nemocnici"
+        Florián: "Tak aspoň na niečo tá pandémia bola dobrá nie?"
+    -> Je zaskočený
+        Florián: "Ja som si myslel, že medzi nami niečo je"
+        Filoména: "Bolo. Je to komplikované. Prepáč"
+        
+Prehodia ešte zopár priateľských slov a rozlúčia sa.
+
+Keď sa Florián otočí a začne kráčať preč Filoména naňho ešte zakričí
+
+Filoména: "Florián! Dúfam, že sa dáš zaočkovať!"
+    -> Jasné
+        Florián: Jasné!
+    -> Neviem <<if $dezole > 1>>
+        Florián: Vieš čo, ja si nie som istý či tým vakcínam verím
+    -> Ani náhodou <<if $dezole > 3>>
+        Florián: To určite. Veď tie vakcíny manipulujú tvoje DNA!
+        Filoména: Florián netrep, viem že tomu neveríš
+
+
+Da sa Florian zaockovat?:
+    -> Ano
+    -> Nie
+
+<<jump 2023>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 4321,-36
+__PrivCrochet_tags: 
+title: 2023
+---
+Filoména sedí doma a bezmyšlienkovito scrolluje internet.
+
+Floriána nevidela odkedy sa vtedy pred pár rokmi stretli v lese ale myslela naňho často.
+
+Často tiež premýšľala o tom čo by bolo keby neprišla pandémia a keby nestretla Bonifáca.
+
+Zrazu zazvoní telefón
+
+Filoména: "Prosím?"
+Aneta: "Filoména! Stalo sa niečo hrozné! Ide o Bonifáca!"
+Filoména: Čo sa stalo??
+    -> Zrazila ho električka
+    -> Zožral ho medveď
+    -> Dostal trest smrti
 ===
