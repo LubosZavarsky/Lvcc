@@ -4,8 +4,8 @@ draw_set_font(fnt_game);
 draw_set_color(c_black);
 draw_set_valign(fa_middle);
 
-var _margin_text = 128; // Horizontal text margin
-var _margin_char = 200; // Horizontal character margin
+//var _margin_text = 128; // Horizontal text margin
+//var _margin_char = 200; // Horizontal character margin
 
 if IsChatterbox(chatterbox) and text != undefined
 {
@@ -15,7 +15,6 @@ if IsChatterbox(chatterbox) and text != undefined
 	var _xx = 60;
 	var _yy = room_height - 90;
 	
-	//TEST
 	// Display the current portion of the text
 	
 	var text_to_display = string_copy(text, 1, chars_shown);
@@ -34,15 +33,15 @@ if IsChatterbox(chatterbox) and text != undefined
 		{
 			if ChatterboxGetOptionConditionBool(chatterbox, i)
 			{
-				_xx = room_width / 2;
-				_yy = (room_height / 8) * (i + 2);
+				_xx = room_width/1.2 ;
+				_yy = ((room_height / 9) * (i/2)) + 400;
 				
-				draw_rectangle_center(_xx, _yy, _width, _height, false, c_black, 0.5);
+				//draw_rectangle_center(_xx, _yy, _width, _height, false, c_black, 0.5);
 				
 				var _icon = "";
 				if (option_index == i) _icon = "> ";
 				var _option = ChatterboxGetOption(chatterbox, i);
-				
+				draw_set_font(fnt_choice);
 				draw_text(_xx, _yy, _icon + _option);
 			}
 		}

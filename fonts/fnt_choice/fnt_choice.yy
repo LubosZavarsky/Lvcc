@@ -1,11 +1,11 @@
 {
   "$GMFont":"",
-  "%Name":"fnt_game",
+  "%Name":"fnt_choice",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":15,
   "ascenderOffset":2,
-  "bold":true,
+  "bold":false,
   "canGenerateBitmap":true,
   "charset":0,
   "first":0,
@@ -221,7 +221,7 @@
   "last":0,
   "lineHeight":20,
   "maintainGms1Font":false,
-  "name":"fnt_game",
+  "name":"fnt_choice",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",

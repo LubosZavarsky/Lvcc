@@ -19,7 +19,6 @@ if keyboard_check_pressed(vk_space) && chars_shown < string_length(text)
 
 }
 
-
 else if ChatterboxIsWaiting(chatterbox) and keyboard_check_pressed(vk_space) //Is Chatterbox waiting for user input
 {
 	

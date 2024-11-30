@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"helpers",
+  "%Name":"scr_fader",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"helpers",
+  "name":"scr_fader",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
