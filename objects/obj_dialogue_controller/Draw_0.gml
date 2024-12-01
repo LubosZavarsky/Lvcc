@@ -15,15 +15,13 @@ if IsChatterbox(chatterbox) and text != undefined
 	var _xx = 60;
 	var _yy = room_height - 90;
 	
-	// Display the current portion of the text
+	// Display the current portion of the text	
 	
 	var text_to_display = string_copy(text, 1, chars_shown);
 	draw_text(_xx, _yy, text_to_display);
 	
-	//If there are options, draw them to the center of the screen
 	
-	
-	// !!! ZACAT PISAT TEXT AZ KED DOBEHNE FADE !!! ???
+	//If there are options, draw them to the right			
 	if ChatterboxGetOptionCount(chatterbox) && chars_shown >= string_length(text)
 	{
 		draw_set_halign(fa_center);

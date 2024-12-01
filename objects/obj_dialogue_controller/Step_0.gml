@@ -1,15 +1,17 @@
 /// @desc Navigate text and options
 
-// Increment timer
-timer += typewriter_speed;
+// Increment timer when fade transition od over
+if !instance_exists(obj_fade_controller) {
+	timer += typewriter_speed;
+} 
 
 // Update the number of characters to show
-if (chars_shown < string_length(text)) {
+if (chars_shown < string_length(text) && !instance_exists(obj_fade_controller)) {
     chars_shown = min(string_length(text), floor(timer)); // Reveal characters one by one
-	if (!audio_is_playing(snd_typing_1)) audio_play_sound(snd_typing_1, 2, true);
+	if (!audio_is_playing(snd_typing_1)) audio_play_sound(snd_typing_1, 2, true);	
 }
 
-var _count = ChatterboxGetOptionCount(chatterbox); // Get the number of options we have
+var _count = ChatterboxGetOptionCount(chatterbox); // Get  the number of options we have
 
 
 if chars_shown >= string_length(text) {
