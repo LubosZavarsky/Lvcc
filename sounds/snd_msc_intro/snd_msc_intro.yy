@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":20.610624,
+  "duration":16.90125,
   "name":"snd_msc_intro",
   "parent":{
     "name":"Sounds",

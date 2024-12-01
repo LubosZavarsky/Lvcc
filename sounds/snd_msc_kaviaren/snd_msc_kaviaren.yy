@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":67.78787,
+  "duration":68.62375,
   "name":"snd_msc_kaviaren",
   "parent":{
     "name":"Sounds",

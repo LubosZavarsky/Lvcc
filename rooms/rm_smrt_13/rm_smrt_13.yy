@@ -13,8 +13,8 @@
   ],
   "name":"rm_smrt_13",
   "parent":{
-    "name":"endings",
-    "path":"folders/Rooms/endings.yy",
+    "name":"deaths",
+    "path":"folders/Rooms/deaths.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

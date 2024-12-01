@@ -13,7 +13,13 @@ if (room == rm_intro_0 || room == rm_intro_1 || room == rm_intro_2) {
         if (next_room != -1 && !instance_exists(obj_fade_controller)) { // Ensure there is a next room
             scr_fader(next_room, 0.03); // Transition to the next room
         } 
-    }
+    }	
 }
 
+if (room == rm_intro_0) {
+	if (!alarm[0]) { 
+		// Glitch effect
+		alarm[0] = 4 * room_speed;	
+	}
+}
  
