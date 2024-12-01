@@ -10,8 +10,15 @@ function scr_fader(argument0, argument1){
 
 	// Check if fade controller already exists in the room
 	if (!instance_exists(obj_fade_controller)) {
+		
+		// Create layer on top of all other to cover instances		
+		var layer_id = layer_get_id("fader_layer");
+		
+		if (layer_id == -1) layer_create(-100, "fader_layer");		
+		
+		
 	    // Create the fade controller if it doesn't exist
-	    var fade_instance = instance_create_layer(0, 0, "Instances", obj_fade_controller);
+	    var fade_instance = instance_create_layer(0, 0, "fader_layer", obj_fade_controller);
     
 	    // Set the fade parameters
 	    fade_instance.fade_alpha = 0;        // Start fully visible (no fade yet)

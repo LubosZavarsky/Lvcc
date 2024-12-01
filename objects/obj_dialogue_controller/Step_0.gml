@@ -19,14 +19,14 @@ if chars_shown >= string_length(text) {
 	if (audio_is_playing(snd_typing_1)) audio_stop_sound(snd_typing_1);	
 }
 
-if keyboard_check_pressed(vk_space) && chars_shown < string_length(text)
+if keyboard_check_pressed(vk_space) && chars_shown < string_length(text) && !instance_exists(obj_fade_controller)
 {
 
 	chars_shown = string_length(text)
 	if (audio_is_playing(snd_typing_1)) audio_stop_sound(snd_typing_1);
 }
 
-else if ChatterboxIsWaiting(chatterbox) and keyboard_check_pressed(vk_space) //Is Chatterbox waiting for user input
+else if ChatterboxIsWaiting(chatterbox) and keyboard_check_pressed(vk_space) && !instance_exists(obj_fade_controller) //Is Chatterbox waiting for user input
 {
 		
 	chars_shown = 0;

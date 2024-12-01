@@ -18,7 +18,7 @@ if IsChatterbox(chatterbox) and text != undefined
 	// Display the current portion of the text	
 	
 	var text_to_display = string_copy(text, 1, chars_shown);
-	draw_text(_xx, _yy, text_to_display);
+	draw_text_ext(_xx, _yy, text_to_display, 25, 1200);
 	
 	
 	//If there are options, draw them to the right			

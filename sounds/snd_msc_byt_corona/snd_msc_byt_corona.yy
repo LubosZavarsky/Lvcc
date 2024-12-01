@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":87.667,
+  "duration":87.71925,
   "name":"snd_msc_byt_corona",
   "parent":{
     "name":"Sounds",

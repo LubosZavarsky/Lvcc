@@ -6,182 +6,174 @@ title: Start
 ---
 <<rm(3)>>
 
-Hlásateľ v televízii hovorí čosi o nejakom novom víruse z nejakého čínskeho mesta,\n
-o ktorom nikdy nepočul. Wu-Chan? 
+Hlásateľ v televízii hovorí o novom víruse z nejakého čínskeho mesta, o ktorom nikdy nepočul 
 
-"Záhadný vírus zasiahol čínske mesto Wuhan. V súčasnosti je infikovaných niekoľko stoviek ľudí,\n
-čínske autority už podnikajú kroky na kontrolu situácie."
--> Fúha, to znie vážne
-    Florián zbystrí pozornosť a zašomre si pod nos\n
-	"To znie vážne! Dúfam že to udržia pod kontrolou"
+"Záhadný vírus zasiahol čínske mesto Wuhan. V súčasnosti je infikovaných niekoľko stoviek ľudí a\nčínske autority už podnikajú kroky na kontrolu situácie."
+
+Čo na to Florián?
+-> To znie vážne
+    Florián zbystrí a presunie svoju pozornosť od memečiek k správam. "Hm? To neznie dobre"\na zo zvedavosti zadá do googlu heslá "wuhan" a "vírus"
         <<set $dezole to 0>>
 -> Blbosť!
-    Florián prevráti očami a povie si pod nos
-    Florian: Ježis zas strašia s blbosťami, to bude ďalšia vtáčia chrípka
+    Florián prevráti očami "Ježiš zas strašia s nejakým vírusom, vtáčia chrípka, prasacia chrípka, žraločia chrípka.."
         <<set $dezole to 1>>
 
 
-V tom Florianovi zazvoni telefon. Vola mu jeho najlepsi kamarat Oskar
+V tom Floriánovi príde správa od Oskara, jeho najlepšieho kamaráta
 
-Oskar: Pod na kavu Florian!
--> Jasne
-    Florian: Jasne, hodim na seba nieco a letim
+Oskar: Pod von Florian! Chcem ist pozriet to nove bistro na Kriznej
+-> Ok
+    Florian: Ok, hodim na seba nieco a idem
         <<jump Vyber tricka>>
--> Dnes nie
-	Florian: Vies co nechce sa mi uz som sa namotal ze ostanem doma dnes
+-> Sorry nechce sa mi
+	Florian: Vies co nechce sa mi dnes, uz som sa namotal ze ostanem doma
         <<jump Nechce sa mi>>
 ===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 354,185
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 268,203
 __PrivCrochet_tags: 
 title: Nechce sa mi
 ---
-Oskar: Jezis nebud kokot
-Florian: Ok
+Oskar: Jezis nebud kokot normalne pod von. Potrebujem pomoct s jednou vecou do roboty
+Florian: ok pockaj hodim na seba nieco a idem
 
-Florian zloží telefón a povie si popod nos 
-
-"Jak sa mi nechce najradsej by som ostal doma aspon rok"
+Florian zloží telefón a zašomre "Boha jeden deň! Jeden deň keby som mohol ostať doma!"
 
 <<jump Vyber tricka>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 678,-69
+__PrivCrochet_position: 574,-72
 __PrivCrochet_tags: 
 title: Vyber tricka
 ---
-Florian pride ku skrini a rozmysla co si obliect
+Florián príde ku skrini a rozmýšľa čo si obliecť
 
-Vyber si tricko
-    -> Cervene tricko
+Vyber si tričko
+    -> Tričko s Garfieldom
         <<jump Cervene>>
-    -> Modre tricko
+    -> Tričko s Komisárom Rexom
         <<jump Modre>>
 ===
 __PrivCrochet_colorID: 5
-__PrivCrochet_position: 1147,-299
+__PrivCrochet_position: 922,-439
 __PrivCrochet_tags: 
 title: Cervene
 ---
-Vybera si cervene tricko
-    <<set $filomena to 1>>
-    <<jump Bar>>
-===
-__PrivCrochet_colorID: 1
-__PrivCrochet_position: 1168,238
-__PrivCrochet_tags: 
-title: Modre
----
-Vybera si modre tricko
+Vyberá si tričko s Garfieldom!
     <<set $filomena to 0>>
     <<jump Bar>>
 ===
+__PrivCrochet_colorID: 1
+__PrivCrochet_position: 923,302
+__PrivCrochet_tags: 
+title: Modre
+---
+Vyberá si tričko s Komisárom Rexom
+    <<set $filomena to 1>>
+    <<jump Bar>>
+===
 __PrivCrochet_colorID: 3
-__PrivCrochet_position: 1606,-58
+__PrivCrochet_position: 1215,-68
 __PrivCrochet_tags: 
 title: Bar
 ---
 <<rm(4)>>
-Florián prichádza do baru, kde už sedí Oskar a máva na neho. 
-Kaviareň je plná ľudí, prevažuje hluk rozhovorov a tichá hudba z reproduktorov. 
-Florián si sadá k Oskarovi a objednáva si kávu.
+Keď Florián s Oskarom dopijú svoje kávy a postavia sa k baru, že idú zaplatiť Florián si všimne\npekné tmavovlasé dievča. 
 
-Po chvíli si Florián všimne ženu, ktorá stojí sama pri bare. Má tmavé vlasy a pozerá do telefónu.\n
-Oskar si ju všimne tiež a podpichne Floriána.
+Oskar, ktorý má už dlhšie pocit, že Florián začína byť trocha osamelý si ju všimne tiež\na drgne doňho
 
 "Hentá je pekná, choď za ňou!"
+
 <<rm(18)>>
-Florián sa trochu zdráha, ale nakoniec sa rozhodne vstať a ísť za ňou.
-    -> Ahoj, ako sa volas?
+Florián sa trochu zdráha, ale nakoniec sa rozhodne ísť za ňou.
+    -> Ahoj, ako sa voláš?
         <<jump Option A>>
     -> Vieš čo by ti pristalo? Ja
         <<jump Option B>>
     -> Nie si wifi? Lebo cítim spojenie
         <<jump Option B>>
-    -> Ahoj, nepozname sa odniekial?
+    -> Ahoj, nepoznáme sa odniekiaľ?
         <<jump Option C>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 1999,-357
+__PrivCrochet_position: 1533,-482
 __PrivCrochet_tags: 
 title: Option A
 ---
-Filoména si ho prezrie. 
-
 <<if $filomena == 1>>
-    Filomena: Usmeje sa. "Filoména" 
+    Filoména si ho prezrie, usmeje sa a podá mu ruku. "Filoména" 
 <<else>>
-Filomena: "Filoména".
+    Filoména si ho skúmavo prezrie a trocha odmeranejšie než chcela povie "Filoména".
 <<endif>>
 
 
 <<jump Interlude>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 2071,-61
+__PrivCrochet_position: 1541,-80
 __PrivCrochet_tags: 
 title: Option B
 ---
 <<if $filomena == 1>>
-    Filomena sa zasmeje a podá Floriánovi ruku
+    Filoména sa nahlas zasmeje, zakrúti hlavou a podá Floriánovi ruku
 <<else>>
-    Filomena prevráti očami
-    Florián: "Ale no tak. Ja som Florián, a ty?"
-    Filoména: "Filoména" a podá Floriánovi ruku
+    Filomena zodvihne obočie, pozrie na Floriána a ostane ticho.
+    Florián s nervóznym smiechom povie "Ok, to nebolo najlepšie"
+    Florian: "Ale na svoju obranu by som chcel povedať že som spanikáril pod tlakom"
+    Filoména sa usmeje "ok aspoň si úprimný" a podá mu ruku. "Filoména"
 <<endif>>
 
 <<jump Interlude>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 2020,280
+__PrivCrochet_position: 1538,330
 __PrivCrochet_tags: 
 title: Option C
 ---
 <<if $filomena == 1>>
-    Filomena si ho prezrie, usmeje sa a povie
-    Filomena: Ak si nebol v poslednom case v nemocnici tak asi nie. 
-    Florian: V nemocnici??
-    Filomena: Ja som zdravotna sestricka a inde ako v praci ma najdes len zriedka
+    Filoména si ho prezrie a usmeje sa "Ak si nebol v poslednom čase v nemocnici tak asi nie" 
 <<else>>
-    Filomena: Nemyslim si
+    Filoména si ho prezrie a povie "Ak si nebol v poslednom čase v nemocnici tak asi nie" 
 <<endif>>
+
+Florian: "V nemocnici??"
+Filoména: "Ja som zdravotná sestrička takže inde ako v praci ma nájdeš len zriedka"
+Florián: "Tak to mám dnes šťastný deň." Vystrie ruku "Ja som Florián a ty?"
+Filoména: "Filoména"
 
 <<jump Interlude>>
 ===
 __PrivCrochet_colorID: 8
-__PrivCrochet_position: 2594,-60
+__PrivCrochet_position: 1909,-83
 __PrivCrochet_tags: 
 title: Interlude
 ---
 <<rm(5)>>
-Nasledujúcich niekoľko mesiacov sa Florián a Filoména začínajú pravidelne stretávať. 
-Spočiatku sú to len náhodné stretnutia na káve alebo poháriku, no čoskoro si obaja uvedomujú,\n 
-že medzi nimi niečo začína iskriť. Florián cíti, že každé stretnutie s Filoménou mu dodáva energiu\n 
-a svetlo, ktoré mu chýbalo v každodennej rutine. 
+Nasledujúcich niekoľko mesiacov sa Florián a Filoména pravidelne stretávajú.
 
-Filoména, napriek náročnej práci v nemocnici, nachádza vo Floriánovi útočisko a príjemný únik\n 
-z každodenných starostí. Ich vzťah rastie ale situácia sa čoskoro mení, keď pandémia zasiahne aj Slovensko. 
+Obaja si výborne rozumejú a ich vzťah postupne prerastá do vážnejšieho vzťahu keď však\nsituáciu naruší pandémia, ktorá zasiahne aj Slovensko.
 
-Filoména ako zdravotná sestra musí čeliť čoraz náročnejším podmienkam a stresu, a ich vzťah je vystavený skúške. 
-Napriek všetkému sa snažia udržať kontakt, ale každodenný život sa stáva stále komplikovanejším, \n
-keď obmedzenia a lockdowny začnú zasahovať do ich plánov a voľného času spolu.
-
-<<jump Júl 2020>>
+Lockdown a Filoménina pracovná vyťaženosť ich nečakane rozdelia a odkážu na diaľkovú komunikáciu.
+<<jump 2020 screen>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 2955,-53
+__PrivCrochet_position: 2230,-78
 __PrivCrochet_tags: 
 title: Júl 2020
 ---
 <<rm(6)>>
-Florián sedí vo svojom byte, zatvorený medzi štyrmi stenami. Vonku je leto, ale on už celé týždne nevychádza von. 
-Na stole má položený notebook, na ktorom bežia online mítingy, a televízor neustále hlási nové správy o pandémii. 
-Florián sa cíti trochu osamelý, a jediné, čo ho drží nad vodou, sú občasné videohovory s Filoménou.
+Florián sedí vo svojom byte, zatvorený medzi štyrmi stenami. Vonku je leto,\nale on už celé týždne nevychádza von. 
+
+Na stole má položený notebook, na ktorom bežia online mítingy,\na televízor stále hlási nové správy o pandémii. 
+
+Florián sa cíti trochu osamelý a jediné čo ho drží nad vodou, sú občasné videohovory s Filoménou.
 
 Vtom sa ozve hlasné klopanie na dvere. Florián prekvapene zdvihne hlavu a zamračí sa. 
 
-"Kto to môže byť?" zamrmle si a zamieri k dverám. Cestou zvažuje -  Nasadiť si rúško predtým, než otvorí?
-    -> Ano
+"Kto chodí cez lockdown klopať ľuďom na dvere čo vám jebe?" zamrmle si a zamieri k dverám. 
+
+Chytí kľučku a vtedy mu napadne - Nasadiť si rúško predtým, než otvorí?
+    -> Áno
         <<set $rusko to 1>>
         <<jump Sused>>
     -> Nie
@@ -190,125 +182,90 @@ Vtom sa ozve hlasné klopanie na dvere. Florián prekvapene zdvihne hlavu a zamr
         <<jump Sused>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 3317,-49
+__PrivCrochet_position: 2549,-94
 __PrivCrochet_tags: 
 title: Sused
 ---
 <<rm(7)>>
-Florian otvorí dvere a na prahu stojí jeho sused, pán Hríb. 
+Otvorí dvere a na prahu stojí jeho sused, pán Hríb. 
 
-Sused je starší muž s mierne divokým pohľadom a zrejmou záľubou v alternatívnych zdrojoch informácií. 
+Sused je starší pán s pohľadom nie úplne vnútorne vyrovnaného človeka\na záľubou v 'alternatívnych' médiách. 
 
-Pán Hríb sa široko usmieva, pričom sa Floriánovi natíska do priestoru.
+Pán Hríb je nahnevaný ako vždy a len čo sa dvere otvoria začne sa tlačiť Floriánovi do priestoru.
 
 <<if $rusko == 0>>
-    Sused: Florián! Susedko!
+    Sused: "Florián! Susedko!"
 <<else>>
-    Sused: Florián! Na čo máš tú handru na ksichte prosím ťa!?
+    Sused: "Florián! Na čo máš tú handru na ksichte prosím ťa!?"
 <<endif>>
 
-Sused: Počuj, nemáš náhodou toaletný papier navyše? \n 
-Všade to je vypredané kvôli tej fejkovanej pandémii!" začne pán Hríb hovoriť a pokračuje bez toho, \n
-aby čakal na odpoveď.
+Sused: "Počuj, nemáš náhodou toaletný papier navyše?\nVšade to je vypredané kvôli tej akože pandémii!" začne sa rozčuľovať a pokračuje bez toho, \naby čakal na odpoveď.
 
-"Teraz som čítal na Hlavných správach, že to vôbec neni jak hovoria! To je celé vymyslené aby nás mohli ovládať! 
+"Teraz som čítal na Hlavných správach, že to vôbec neni jak hovoria!\nTo je celé vymyslené aby nás mohli ovládať! 
 Šak ten vírus vyrobili Američania v labáku! Ja mám v náhubku chodiť po vonku?! To radšej umrem"
 
 <<if $dezole > 1>>
-    Florian: Hm, mozno na tom nieco bude. Pockajte mam tu nejaky extra toaletak donesiem vam
+    Floriánovi sa nechce s ním debatovať tak s ním súhlasí aby sa ho čo najskôr zbavil
+    Florián: "Hm, možno na tom niečo bude. Počkajte mám tu nejaký extra toaleťák donesiem vám"
 <<else>>
-    Florian: Prepacte sused, nemam ani ja
+    Florian (odmerane): "Prepáčte sused, nemám ani ja."
+    <<if $rusko == 1>>
+        Florian: "A moja známa je sestrička v nemocnici a uistila ma, že tie rúška fungujú"
+    <<endif>>
+    Zatvorí dvere skôr než sused stihne spustiť ďalší konšpiračný monológ
 <<endif>>
 
-Po tom čo sused odíde Florián premýšľa či si prečíta ten článok čo spomínal
-
-Florian:
-    -> Prečíta článok
+Keď sa Florián vráti na gauč a vezme telefón do ruky, napadne mu, že si prezrie čo píšu\no pandémii tieto konšpiračné weby
+    -> Vygoogli konšpirácie
         <<set $dezole to $dezole + 1>>
-    -> Neprečíta článok
+    -> Nevygoogli konšpirácie
 
 <<jump Filomena call>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 3652,-49
+__PrivCrochet_position: 2895,-86
 __PrivCrochet_tags: 
 title: Filomena call
 ---
 <<rm(8)>>
-Floriánov telefón zrazu zazvoní a na displeji sa objaví meno Filoména. \n
-Zdvihne ho s neistým úsmevom na tvári.
+Floriánov telefón zrazu zazvoní a na displeji sa objaví Filoména.
 
-Florian: ahoj, ako sa mas?
-Filomena: ahoj, nic moc ak mam byt uprimna, v praci je to uplny chaos teraz, \n
-zislo by sa mi pocut priatelsky hlas
+Florian (s úsmevom): "Ahoj, ako sa máš?"
+Filomena (vyčerpaná): "Ahoj, nič moc ak mám byť úprimná, v praci to je totálny chaos teraz,\nto by si neveril. Zišlo by sa mi počuť priateľský hlas"
 
-Florian rozmysla o com by sa mohli rozpravat
+Florián premýšľa o čom by sa mohli porozprávať
     -> Politika
-        Florian:
-        -> Matovic
-            Florian: Kokos ten Matovic to je riadny cirkus co? 
-            Filomena: Ani mi nehovor..
-            Florian: Aspon ze toho Fica sme sa raz a navzdy zbavili
-        -> Americke volby
-            Forian: Co hovoris na tie Americke volby? Ten Biden to vyhral nakoniec
-            Filomena: No chvalabohu...
-            <<if $dezole > 2>>
-                Florian: Co ja viem s tym Trumpom by aspon bola sranda
-            <<else>>
-                Florian: Tomu ver, dalsie styri roky Trumpa si neviem predstavit
-            <<endif>>
-    -> Popkultura
-        Florian:
-        -> Tiger King
-            Florian: Viela si uz Tiger Kinga?
-            Filomena: Jasne, este mam posledny diel, nespojluj!
-    -> Pandemia
-        Florian:
-        -> Lockdown
-            Florian: Tento lockdown to je strasne, uz nech to skonci
-            <<if $dezole > 2>>
-                Florian: Ani neviem ci to ma nejaky vyznam
-            <<endif>>
-        -> Ockovanie
-            Florian: Myslis ze bude vakcina niekedy?
-            Filomena: Jasne, verim ze coskoro
-            <<if $dezole > 2>>
-
-                -> Dufam ze hej
-                    Florian: Dufam ze hej
-                -> Tomu moc neverim
-                    Florian: Tak narychlo vyrobenej vakciny by som sa asi bal
-            <<else>>
-                Florian: Dufam ze hej
-            <<endif>>
-
-<<jump Choices>>
+        <<jump Politika>>
+    -> Popkultúra
+        <<jump Popkultura>>
+    -> Pandémia
+        <<jump Pandemia>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 4296,-48
+__PrivCrochet_position: 4642,-44
 __PrivCrochet_tags: 
 title: 2021
 ---
 <<rm(9)>>
-Prešiel rok. Lockdown a pandémia sa podpísali na Floriánovom psychyckom zdraví. 
+Prešiel rok. Lockdown a pandémia sa podpísali na Floriánovom psychickom zdraví. 
 
-Hoci sa s Filoménou niekoľko mesiacov nevideli stále na ňu neprestal myslieť a často premýsľal ako sa má.
+Hoci sa s Filoménou niekoľko mesiacov nevideli stále na ňu neprestal myslieť\na často premýsľal ako sa má.
 
-Pri jednej z jeho pravidelných zdravotných prechádzok lesom koncom leta náhodou narazil na Filoménu
+Pri jednej z jeho zdravotných prechádzok lesom koncom leta náhodou narazil na Filoménu
 
 <<rm(10)>>
 
-Florián: Filoména?
-Filoména: Florián! Ako sa máš?
+Florián: "Filoména?"
+Filoména: "Florián! Ako sa máš?"
     -> Ujde to
-        Florián: Ale v pohode, dá sa. A ty?
-        Filoména: Dobre. Som rada že ťa vidím
-        Florián: Aj ja, neskočíme na kávu?
+        Florián: "Ale v pohode, dá sa. A ty?"
+        Filoména: "Dobre. Som rada že ťa vidím"
+        Florián: "Aj ja, neskočíme na kávu?"
     -> Nič moc
-        Florián: Vieš čo ak mám pravdu povedať mal som sa aj lepšie
-        Filoména: Rozumiem
-        Florián: Ale teraz keď ťa vidím mám hneď lepšiu náladu? Neskočíme niekam na kávu?
-Filoména: (sklopí zrak) Prepáč, nemôžem. Niekoho som stretla
+        Florián: "Vieš čo ak mám pravdu povedať mal som sa aj lepšie"
+        Filoména: "Rozumiem"
+        Florián: "Ale teraz keď ťa vidím mám hneď lepšiu náladu? Neskočíme niekam na kávu?"
+Filoména: (sklopí zrak) "Prepáč, nemôžem. Niekoho som stretla"
     -> Predstiera, že je v pohode
         Florián: "Aha, no to je super! Kto to je?"
         Filoména: "Kolega z pľúcneho, spoznali sme sa v nemocnici"
@@ -323,22 +280,19 @@ Keď sa Florián otočí a začne kráčať preč Filoména naňho ešte zakrič
 
 Filoména: "Florián! Dúfam, že sa dáš zaočkovať!"
     -> Jasné
-        Florián: Jasné!
-    -> Neviem <<if $dezole > 1>>
-        Florián: Vieš čo, ja si nie som istý či tým vakcínam verím
+        Florián: "Jasné!"
+    -> Ešte neviem <<if $dezole > 1>>
+        <<set $dezole to $dezole + 1>>
+        Florián: "Vieš čo, ja si nie som istý či tým vakcínam verím"
+        Filoména: "Florián netrep. Normálne sa daj zaočkovať!"
     -> Ani náhodou <<if $dezole > 3>>
-        Florián: To určite. Veď tie vakcíny manipulujú tvoje DNA!
-        Filoména: Florián netrep, viem že tomu neveríš
+        Florián: "To určite. Veď tie vakcíny manipulujú tvoje DNA!"
+        Filoména: "Florián netrep, viem že tomu neveríš. Normálne sa daj zaočkovať!"
 
-
-Da sa Florian zaockovat?:
-    -> Ano
-    -> Nie
-
-<<jump 2023>>
+<<jump 2023 screen>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 4643,-47
+__PrivCrochet_position: 4971,-52
 __PrivCrochet_tags: 
 title: 2023
 ---
@@ -353,7 +307,7 @@ Zrazu zazvoní telefón
 
 Filoména: "Prosím?"
 Aneta: "Filoména! Stalo sa niečo hrozné! Ide o Bonifáca!"
-Filoména: Čo sa stalo??
+Filoména: čo sa stalo??
     -> Zrazila ho električka
         <<rm(13)>>
         Aneta: "Kráčal po ulici v rúšku a v okuliaroch a okuliare mal zarosené"
@@ -370,60 +324,77 @@ Filoména: Čo sa stalo??
         Aneta: "A chytili ho policajti! Dostal trest smrti!"
 
 Filoména: "Panebože!"
-<<jump 2024>>
+<<jump 2024 screen>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 5062,-47
+__PrivCrochet_position: 5294,-65
 __PrivCrochet_tags: 
 title: 2024
 ---
 <<rm(12)>>
-Filoména sedí v kaviarni kde sa kedysi zoznámila s Floriánom a premýšľa nad všetkým čo sa za posledné roky stalo.
+Filoména sedí v kaviarni kde sa kedysi zoznámila s Floriánom a premýšľa nad všetkým\nčo sa za posledné roky stalo.
+Po smrti Bonifáca strávila rok v Indii hľadaním samej seba. Odišla bez rolúčenia \na minulý týždeň sa vrátila naspäť na Slovensko.
 
 Dnu vchádza Florián a posadí sa oproti nej, jeho pohľad neistý, no plný dôvery.
 
-Filoména: "Florián, musím ti niečo povedať."
+Filoména: "Florián, rada ťa vidím."
 
 Filoména si povzdychla a na okamih odvrátila pohľad smerom k oknu.
 
-Filoména: "Bonifác... Minulý rok zomrel. Stalo sa to tak rýchlo, ani som sa s ním nestihla rozlúčiť. Bol tak silný a staral sa o iných, a zrazu ho už nebolo."
+Filoména: "Bonifác... Minulý rok zomrel." 
+Filoména: "Stalo sa to tak rýchlo, potrebovala som odísť. Ani som sa s ním nestihla rozlúčiť."
+Filoména: "Bol tak silný a staral sa o iných, a zrazu ho už nebolo, nezvládla som tu zostať."
 
-Floriánove oči sa zjemnili, plné pochopenia a bolesti. Pozeral na ňu, akoby hľadal tie správne slová.
+Floriánove oči sa zjemnili, plné pochopenia a bolesti. Pozeral na ňu a hľadal tie správne slová.
     -> Mrzí ma to
         Florián: "Filoména, to ma veľmi mrzí. Viem, že pre teba znamenal veľa."
-        Filoména: "Áno. A aj keď ma to nesmierne bolí, viem, že by som mala ísť ďalej. Ale cítim sa tak stratená Florián."
-    -> Nepovie nič
-        Filoména: "A aj keď ma to nesmierne bolí, viem, že by som mala ísť ďalej. Ale cítim sa tak stratená Florián."
-    -> Bol zaočkovaný? <<if $dezole > 4>>
-        Filoména: "Florián prestaň prosím ťa! To s tým nemá nič spoločné"
+        Filoména: "Áno. A aj keď ma to nesmierne bolí, snáď ma uteší psík, ktoré som si priniesla z Indického útulku."
+    -> Nepovie nič.
+        Filoména: "A aj keď ma to nesmierne bolí, snáď ma uteší psík, ktoré som si priniesla z Indického útulku."
+    -> Bol zaočkovaný? <<if $dezole > 2>>
+        Filoména: "Florián prestaň prosím ťa! To s tým nemá nič spoločné."
 
 
-Florián chytil jej ruku, jemne, no s pevným odhodlaním. Cítila jeho teplo a to čosi viac, niečo, čo sa medzi nimi skrývalo roky.
+Florián chytil jej ruku, jemne, no s pevným odhodlaním. 
+Cítila jeho teplo a to čosi viac, niečo, čo sa medzi nimi skrývalo roky.
 
-Florián: "Filoména, roky som sa snažil nájsť odvahu. Roky som sa pozeral, ako žiješ svoj život, a prial som si, aby som mohol byť jeho súčasťou. Miloval som ťa, keď sme sa prvýkrát stretli, a milujem ťa aj dnes. Nikdy som neprestal. Chcem tu byť pre teba, aj teraz, aj navždy."
+Florián: "Filoména, roky som sa snažil nájsť odvahu. Roky som sa pozeral, ako žiješ svoj život,\na prial som si, aby som mohol byť jeho súčasťou." 
+Florián: "Miloval som ťa, keď sme sa prvýkrát stretli, a milujem ťa aj dnes. Nikdy som neprestal. Chcem tu byť pre teba, aj teraz, aj navždy."
+
+<<if $filomena == 1>>
+    <<jump Koniec spolu>>
+<<else>>
+    <<jump Koniec od seba>>
+<<endif>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 3920,-378
+__PrivCrochet_position: 3905,-392
 __PrivCrochet_tags: 
 title: Choices
 ---
 Keď dotelefonuje s Filoménou Florián sa obzrie po byte a premýšľa čo urobiť
     -> Zatlieskať zdravotníkom
-        <<jump 2021>>
+        <<jump 2021 screen>>
     -> Ísť na prechádzku
         <<jump Prechádzka>>
-    -> Ísť na tajný koncert Oskara Rózsu <<if $dezole > 1>>
-        <<set $covid to 1>>
-        <<jump Koncert>>
     -> Pustiť si YouTube <<if $dezole > 0>>
-        <<set $dezole to $dezole + 1>>
-        <<if $dezole > 3>>
+        <<if $dezole > 2>>
             <<if $rusko == 0>>
+                <<set $youtubedeath to 1>>
+                <<set $koncertdeath to 0>>
                 <<jump Plucne>>
+            <<else>>
+                <<set $youtubedeath to 0>>
+                <<set $dezole to $dezole + 1>>
             <<endif>>
         <<else>>
-            <<jump 2021>>
+            <<jump 2021 screen>>
         <<endif>>
+    -> Ísť na tajný koncert Oskara Rózsu <<if $dezole > 2>>
+        <<set $koncertdeath to 1>>
+        <<set $youtubedeath to 0>>
+        <<set $covid to 1>>
+        <<jump Koncert>>
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 4553,-365
@@ -431,10 +402,26 @@ __PrivCrochet_tags:
 title: Plucne
 ---
 <<rm(17)>>
-Florián dostal covid a skončil na pľúcnom kde naposledy videl Filoménu ako sa mu snaží zachrániť život
+<<if $koncertdeath == 1>>
+    <<if $rusko == 0>>
+        Florián si pri kontakte so susedom nenasadil rúško a nakazil sa covidom.
+        Na koncerte ho rozniesol medzi stovky ľudí.
+        Naposledy videl Filoménu ako sa mu snaží na pľúcnom oddelení zachrániť život
+    <<else>>
+        Florián na konecerte dostal covid a skončil na pľúcnom kde naposledy videl Filoménu ako sa mu snaží zachrániť život
+    <<endif>>
+<<endif>>
+
+<<if $youtubedeath == 1>>
+    Florián si pri kontakte so susedom nenasadil rúško a nakazil sa covidom.
+    Naposledy videl Filoménu ako sa mu snaží na pľúcnom oddelení zachrániť život
+<<endif>>
+
+<<wait>>
+<<rm(0)>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 4251,-621
+__PrivCrochet_position: 4251,-624
 __PrivCrochet_tags: 
 title: Koncert
 ---
@@ -446,16 +433,143 @@ __PrivCrochet_tags:
 title: Prechádzka
 ---
 <<if $dezole < 2>>
-    <<jump 2021>>
+    <<jump 2021 screen>>
 <<else>>
     <<jump Sniper>>
 <<endif>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 4374,355
+__PrivCrochet_position: 4384,481
 __PrivCrochet_tags: 
 title: Sniper
 ---
 <<rm(16)>>
 Florián pri prechádzke prekročil hranice svojho okresu a zastrelil ho sniper
+<<wait>>
+<<rm(0)>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 3353,-687
+__PrivCrochet_tags: 
+title: Politika
+---
+O čom sa porozprávať
+    -> Matovič
+        Florián: "Kokos ten Matovič to je riadny cirkus čo? "
+        Filoména: "Ani mi nehovor.."
+        Florián: "Aspoň, že toho Fica sme sa raz a navždy zbavili!"
+    -> Americké voľby
+        Forián: "Čo hovoríš na tie Americké voľby? Ten Biden to vyhral nakoniec, takže svet\nsa predsa len vracia do normálu snáď"
+        Filoména (so smiechom): "Haha to je celkom optimistický pohľad na svet od niekoho\nkto už mesiac nejedol nič iné ako vifonku"
+        <<if $dezole > 2>>
+            Florián: "Lol, ja len vravím, že to je krok k normálnosti. Aj keď s Trumpom bola sranda aspoň"
+            Filoména: "Ježiš nestraš, si predstav ďalšie štyri roky"
+        <<else>>
+            Florián: "Lol, ja len vravím, že to je krok k normálnosti.\nSi predstav ďalšie štyri roky s Trumpom haha"
+        <<endif>>
+<<jump Choices>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 3359,-101
+__PrivCrochet_tags: 
+title: Popkultura
+---
+Florian: "Videla si už Tiger Kinga?"
+Filomena: "Jasné, ešte mam posledný diel, nie že mi to vyspojluješ!"
+Filoména: "Jeden kolega tu z pľúcneho už mi vyspojloval Queen's gambit"
+Florián: "A čo si myslíš o P.Diddym?"
+Filoména: "Milujem! Keby sa z neho vykľul zlý človek tak neviem čo budem robiť"
+Florián: "To sa nikdy nestane neboj sa"
+<<jump Choices>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 3373,403
+__PrivCrochet_tags: 
+title: Pandemia
+---
+<<if $dezole > 1>>
+    Florián: "Teraz som čítal, že už robia na vakcíne. To sa dá tak rýchlo podľa teba?"
+    Filoména: "Jasné, že sa dá. Toto je výnimočná situácia Florián"
+        -> Skeptický
+            Florián: "Čo ja viem, veď takéto veci otestovať to trvá roky nie?"
+            Filoména (nahnevane): "Florián prestaň čítať sprostosti online."
+        -> Optimistický
+            Florián: "Fakt dúfam, že máš pravdu. Z tohto lockdownu, už mi začína šibať trocha"
+            <<set $dezole to $dezole - 1>>
+<<else>>
+    Florian: "Teraz som čítal, že už robia na vakcíne."
+    Filoména: "Chvalabohu! To si nevieš predstaviť čo sa tu deje v tej nemocnici"
+        -> Skeptický
+            Florián: "To sa dá tak rýchlo podľa teba"
+            Filoména: "Florián jasné, že sa dá. Toto je výnimočná situácia."
+            Florián: "Ok, keď to povieš ty"
+            <<set $dezole to $dezole + 1>>
+        -> Optimistický
+            Florián: "Dúfam, že to bude čím skôr. Z tohto lockdownu, už mi začína šibať trocha"
+<<endif>>
+<<jump Choices>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 2097,-379
+__PrivCrochet_tags: 
+title: 2020 screen
+---
+<<rm(19)>>
+<<wait>>
+<<jump Júl 2020>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 4329,-29
+__PrivCrochet_tags: 
+title: 2021 screen
+---
+<<rm(20)>>
+<<wait>>
+<<jump 2021>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 4819,241
+__PrivCrochet_tags: 
+title: 2023 screen
+---
+<<rm(21)>>
+<<wait>>
+<<jump 2023>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 5169,-317
+__PrivCrochet_tags: 
+title: 2024 screen
+---
+<<rm(22)>>
+<<wait>>
+<<jump 2024>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 5660,-232
+__PrivCrochet_tags: 
+title: Koniec spolu
+---
+Filoména mu stisne ruku a usmeje sa.
+"Od prvej chvíle, keď som ťa videla v tom tričku s Komisárom Rexom som vedela, že patríme k sebe."
+<<jump Final>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 5672,106
+__PrivCrochet_tags: 
+title: Koniec od seba
+---
+Filoména smutne sklonila hlavu a pozrela do zeme. 
+Od prvej chvíle keď Floriána videla v tom tričku s Garfieldom kdesi v podvedomí tušila, že k sebe nepatria.
+"Florián... asi to nie je najlepší nápad"
+<<jump Final>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 6039,-41
+__PrivCrochet_tags: 
+title: Final
+---
+<<rm(23)>>
+<<wait>>
+<<rm(0)>>
 ===
