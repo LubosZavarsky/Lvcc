@@ -17,8 +17,8 @@ if IsChatterbox(chatterbox) and text != undefined
 	
 	// Display the current portion of the text	
 	
-	var text_to_display = string_copy(text, 1, chars_shown);
-	draw_text_ext(_xx, _yy, text_to_display, 25, 1200);
+	var _text_to_display = string_copy(text, 1, chars_shown);
+	draw_text_ext(_xx, _yy, _text_to_display, 25, 1200);
 	
 	
 	//If there are options, draw them to the right			
@@ -29,18 +29,18 @@ if IsChatterbox(chatterbox) and text != undefined
 		var _width = 400;
 		var _height = 64;
 		
-		for (var i = 0; i < ChatterboxGetOptionCount(chatterbox); i++;)
+		for (var _i = 0; _i < ChatterboxGetOptionCount(chatterbox); _i++;)
 		{
-			if ChatterboxGetOptionConditionBool(chatterbox, i)
+			if ChatterboxGetOptionConditionBool(chatterbox, _i)
 			{
 				_xx = room_width/1.2 ;
-				_yy = ((room_height / 9) * (i/2)) + 400;
+				_yy = ((room_height / 9) * (_i/2)) + 400;
 				
 				//draw_rectangle_center(_xx, _yy, _width, _height, false, c_black, 0.5);
 				
 				var _icon = "";
-				if (option_index == i) _icon = "> ";
-				var _option = ChatterboxGetOption(chatterbox, i);
+				if (option_index == _i) _icon = "> ";
+				var _option = ChatterboxGetOption(chatterbox, _i);
 				draw_set_font(fnt_choice);
 				draw_text(_xx, _yy, _icon + _option);
 			}

@@ -1,12 +1,13 @@
-/// @desc Navigate text and options
+/// @desc Navigate text and options + typewriter effect
 
-// Increment timer when fade transition od over
-if !instance_exists(obj_fade_controller) {
+// Wait until fade transition end to display text
+if instance_exists(obj_fade_controller) exit;
+
+// Increment timer 
 	timer += typewriter_speed;
-} 
 
 // Update the number of characters to show
-if (chars_shown < string_length(text) && !instance_exists(obj_fade_controller)) {
+if (chars_shown < string_length(text)) {
     chars_shown = min(string_length(text), floor(timer)); // Reveal characters one by one
 	if (!audio_is_playing(snd_typing_1)) audio_play_sound(snd_typing_1, 2, true);	
 }
@@ -19,14 +20,14 @@ if chars_shown >= string_length(text) {
 	if (audio_is_playing(snd_typing_1)) audio_stop_sound(snd_typing_1);	
 }
 
-if keyboard_check_pressed(vk_space) && chars_shown < string_length(text) && !instance_exists(obj_fade_controller)
+if keyboard_check_pressed(vk_space) && chars_shown < string_length(text)
 {
 
 	chars_shown = string_length(text)
 	if (audio_is_playing(snd_typing_1)) audio_stop_sound(snd_typing_1);
 }
 
-else if ChatterboxIsWaiting(chatterbox) and keyboard_check_pressed(vk_space) && !instance_exists(obj_fade_controller) //Is Chatterbox waiting for user input
+else if ChatterboxIsWaiting(chatterbox) and keyboard_check_pressed(vk_space) //Is Chatterbox waiting for user input
 {
 		
 	chars_shown = 0;

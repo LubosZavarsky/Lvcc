@@ -348,9 +348,9 @@ Filoména: "Bol tak silný a staral sa o iných, a zrazu ho už nebolo, nezvlád
 Floriánove oči sa zjemnili, plné pochopenia a bolesti. Pozeral na ňu a hľadal tie správne slová.
     -> Mrzí ma to
         Florián: "Filoména, to ma veľmi mrzí. Viem, že pre teba znamenal veľa."
-        Filoména: "Áno. A aj keď ma to nesmierne bolí, snáď ma uteší psík, ktoré som si priniesla z Indického útulku."
+        Filoména: "Áno. A aj keď ma to nesmierne bolí, snáď ma uteší psík, ktorého som si priniesla\nz Indického útulku."
     -> Nepovie nič.
-        Filoména: "A aj keď ma to nesmierne bolí, snáď ma uteší psík, ktoré som si priniesla z Indického útulku."
+        Filoména: "A aj keď ma to nesmierne bolí, snáď ma uteší psík, ktorého som si priniesla\nz Indického útulku."
     -> Bol zaočkovaný? <<if $dezole > 2>>
         Filoména: "Florián prestaň prosím ťa! To s tým nemá nič spoločné."
 

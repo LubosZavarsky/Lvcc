@@ -17,16 +17,11 @@ function draw_rectangle_center(_x, _y, _width, _height, _outline, _colour, _alph
 	draw_set_alpha(_old_alpha);
 }
 
-//function background_set_index(_arr) {
-//	var lay_id = layer_get_id("Background");
-//	var back_id = layer_background_get_id(lay_id);
-	
-//	layer_background_index(back_id, _arr[0]);
-//}
 
 function rm_change(_arr) {	
 	
 	//room_goto(_arr[0])
+	
 	 if ( !instance_exists(obj_fade_controller)) {
 		
 		scr_fader(_arr[0], 0.03); 
