@@ -1,0 +1,1 @@
+if (room == rm_koniec_23 ) alarm[0] = -1;

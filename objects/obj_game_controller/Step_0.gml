@@ -29,7 +29,7 @@ if (room == rm_2020_19 || room == rm_2021_20 || room == rm_2023_21 || room == rm
 if (room == rm_intro_0) {
 	if (!alarm[0]) { 		
 		alarm[0] = 4 * rm_spd;	
-	}
+	} 
 }
 
 if (room == rm_koniec_23 ) {
